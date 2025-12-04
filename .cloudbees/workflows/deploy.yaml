@@ -9,5 +9,5 @@ jobs:
       - uses: cloudbees-io/register-deployed-artifact@v2
         with:
           labels: demo-go-service
-          artifact-id: 947f87dc-fc50-4cb7-b9b9-d49058b48ab6
+          artifact-id: c4606787-0141-411d-8e6a-a47352ce7477
           target-environment: Pre-Prod
