@@ -6,7 +6,8 @@ on:
 jobs:
   deploy:
     steps:
-      - uses: cloudbees-io/register-deployed-artifact@v2
+      - id: test-id
+        uses: cloudbees-io/register-deployed-artifact@v2
         with:
           labels: demo-go-service
           artifact-id: 909a9a4c-2ba8-4715-9a7a-6d263526d1f8
